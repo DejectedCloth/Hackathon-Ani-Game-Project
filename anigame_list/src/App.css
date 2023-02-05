@@ -107,3 +107,7 @@ button{
 button:hover{
   background-color: #7b38d8;
 }
+
+button:disabled {
+  background-color: gray;
+}
