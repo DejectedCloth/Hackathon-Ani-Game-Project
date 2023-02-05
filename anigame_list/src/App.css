@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 275px; /*was 30*/
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.search-content {
+  padding: 50px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-Content .anime-input  {
+  padding: 20px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.anime-in {
+  background-color: black;
+  border-left: 200px;
+}
+
+input {
+  width:80%;
+  
+}
+
+.popular {
+  padding-top: 100px;
+}
+
+ul{
+  list-style: none;
+}
+
+.content{
+  background-color: goldenrod;
+}
+
+button{
+  background-color: goldenrod;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  height: 60px;
+  width: 125px;
+}
+
+button:hover{
+  background-color: #7b38d8;
+}
